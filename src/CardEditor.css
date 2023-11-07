@@ -1,0 +1,16 @@
+table, 
+td,
+th {
+    border: 1px solid black;
+}
+
+/*gets rid of inner border*/
+table {
+    border-collapse: collapse;
+}
+
+/*giving card text breathing room*/
+td,
+th {
+    padding: 10px;
+}
