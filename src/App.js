@@ -44,7 +44,7 @@ class App extends React.Component{
         />
       );
     } else {
-      return <CardViewer switchMode={this.switchMode} />;
+      return <CardViewer cards={this.state.cards} switchMode={this.switchMode} />;
     }
   } 
 }

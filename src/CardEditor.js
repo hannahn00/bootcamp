@@ -42,8 +42,6 @@ class CardEditor extends React.Component {
             );
         });
 
-        console.log(cards);
-
         return (
             <div>
                 <h2>Card Editor</h2>

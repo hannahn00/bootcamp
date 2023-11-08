@@ -1,0 +1,80 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+  }
+  
+  .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 325px;
+    background-color: #133f2e;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: x-large;
+    cursor: pointer;
+    border-radius: 25px;
+
+  }
+  
+  .buttons-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+  }
+  
+  .front {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    border-radius: 25px;
+    border: 2px solid #133f2e;
+    font-family: Arial;
+    background-color: white;
+    font-size: large;
+    padding: 10px 20px; /* Adjust the padding as needed */
+    margin: 10px;
+    cursor: pointer;
+  }
+
+.index {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: large;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #133f2e;
+    font-family: Arial;
+    font-size: xxx-large;
+    font-weight: bold;
+    margin-top: 100px;
+    margin-bottom: 0px;
+  }
+
+  .back {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    border-radius: 25px;
+    background-color: white;
+    border: 2px solid #133f2e;
+    font-family: Arial;
+    font-size: large;
+    padding: 10px 20px; /* Adjust the padding as needed */
+    margin: 10px;
+    cursor: pointer;
+  }
