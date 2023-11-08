@@ -56,10 +56,10 @@ class CardViewer extends React.Component {
                     </div>
                 </div>
                 <div className='buttons-container'>
-                    <div className='front' onClick={this.prevCard}>previous</div>
-                    <div className='back' onClick={this.nextCard}>next</div>
+                    <div className='buttons' onClick={this.prevCard}>previous</div>
+                    <div className='buttons' onClick={this.nextCard}>next</div>
                 </div>
-                <button className='switch' onClick={this.props.switchMode}>go to card viewer</button>
+                <button className='buttons' onClick={this.props.switchMode}>go to card viewer</button>
             </div>
         );
     }

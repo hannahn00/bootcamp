@@ -17,8 +17,13 @@ class CardEditor extends React.Component {
     //handle function knows exactly which state to change bc of name
     
     addCard = () => {
-        this.props.addCard(this.state);
-        this.setState({ front: '', back: ''});
+        if (this.state.front.trim() !== '' && this.state.back.trim() !== '') {
+            this.props.addCard(this.state);
+            this.setState({ front: '', back: '' });
+        } else {
+            //tell user they need to put in text, cant leave empyu
+            alert('Please enter text for both front and back of the card.');
+        }
     }
     
     deleteCard = index => this.props.deleteCard(index);

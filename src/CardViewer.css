@@ -1,3 +1,4 @@
+
 .container {
     display: flex;
     justify-content: center;
@@ -20,14 +21,14 @@
     border-radius: 25px;
 
   }
-  
+
   .buttons-container {
     display: flex;
     justify-content: center;
     margin-top: 100px;
   }
   
-  .front {
+  .buttons {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -37,7 +38,7 @@
     font-family: Arial;
     background-color: white;
     font-size: large;
-    padding: 10px 20px; /* Adjust the padding as needed */
+    padding: 10px 20px;
     margin: 10px;
     cursor: pointer;
   }
@@ -62,19 +63,4 @@ h2 {
     font-weight: bold;
     margin-top: 100px;
     margin-bottom: 0px;
-  }
-
-  .back {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: bold;
-    border-radius: 25px;
-    background-color: white;
-    border: 2px solid #133f2e;
-    font-family: Arial;
-    font-size: large;
-    padding: 10px 20px; /* Adjust the padding as needed */
-    margin: 10px;
-    cursor: pointer;
   }
