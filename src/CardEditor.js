@@ -77,6 +77,8 @@ class CardEditor extends React.Component {
                 <button onClick={this.addCard}>Add card</button>
                 <hr />
                 <Link to="/viewer">Go to card viewer</Link>
+                <br />
+                <Link to="/">Go to Homepage</Link>
             </div>
         );
     }

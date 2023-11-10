@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './CardViewer.css';
 import { Link } from 'react-router-dom';
 
@@ -62,6 +62,8 @@ class CardViewer extends React.Component {
                     <div className='buttons' onClick={this.nextCard}>next</div>
                 </div>
                 <Link to="/editor">Go to card editor</Link>
+                <br />
+                <Link to="/">Go to Homepage</Link>
             </div>
         );
     }
